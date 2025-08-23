@@ -173,22 +173,6 @@
         })
     }
 
-    // 加载d2c组件
-    const loadXComponent = function (onLoadSuccess) {
-        let id = getUrlField('id');
-        let content = document.getElementById("content");
-        if (id) {
-            let node = document.createElement('js-frame');
-            const src = getUrlXComponent()
-            node.setAttribute('src', src)
-            addListenerReadyStateChange(node);
-            content.appendChild(node);
-        } else {
-            let node = document.createElement('div');
-            node.innerText = '请输入id字段，例如：?id=xxxx';
-            content.appendChild(node);
-        }
-    }
 
     // 监听hash值，对jsframe src进行更新
     const listenHashChange = function () {
