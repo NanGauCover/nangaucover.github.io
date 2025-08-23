@@ -7,9 +7,9 @@
 <local:MyCard Title="版权声明" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,8,0,2"
-                    Text="服务器内部分建筑/模型/音效等资产均为个人资产，受法律保护，不得也任何形式挪用，以防承担法律责任！" />
+                    Text="服务器内部分建筑/模型/音效等资产均为个人资产，受法律保护，不得以任何形式挪用，以防承担法律责任！" />
         <local:MyHint Margin="0,8,0,2"
-                    Text="服务器内自研Mod：繁荣(缩写)，创作者拥有知识产权，受法律保护，不得也任何形式挪用，以防承担法律责任！" />
+                    Text="服务器内自研Mod：繁荣(缩写)，创作者拥有知识产权，受法律保护，不得以任何形式挪用，以防承担法律责任！" />
     </StackPanel>
 </local:MyCard>
 
@@ -169,3 +169,4 @@ local:MyIconButton（图标按钮）：
 除此之外，不能声明其他命名空间。
 
 -->
+
