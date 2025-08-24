@@ -94,7 +94,7 @@
         <TextBlock TextWrapping="Wrap" Margin="0,6,0,4"
                     Text="下载后找到安装文件，双击进入安装界面，建议安装到C盘默认位置，方便启动器自动搜寻，如果仍然不能启动游戏，请选择安装JDK17，并打开 设置 ▻ 启动 ▻ 游戏Java ▻ 选择“JDK17 (XX.X.X)”" />
         <TextBlock TextWrapping="Wrap" Margin="0,6,0,0" FontWeight="Bold"
-                    Text="如果安装的是服务器的懒人安装包，会内置JDK-24，如果电脑配置没问题则不需要考虑Java配置问题，在 设置 ▻ 启动 ▻ 游戏Java ▻自动搜索 点击即可，如果出现问题，请按照"没有Java运行环境？"处理" />
+                    Text="如果安装的是服务器的懒人安装包，会内置JDK-24，如果电脑配置没问题则不需要考虑Java配置问题，在 设置 ▻ 启动 ▻ 游戏Java ▻自动搜索 点击即可，如果出现问题，请按照“没有Java运行环境？”处理" />
     </StackPanel>
 </local:MyCard>
 
@@ -171,5 +171,6 @@ local:MyIconButton（图标按钮）：
 除此之外，不能声明其他命名空间。
 
 -->
+
 
 
